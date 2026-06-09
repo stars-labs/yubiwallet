@@ -31,7 +31,7 @@ card = ["dep:pcsc", "dep:clap", "dep:bs58", "dep:base64"]
 [dependencies]
 # Always available — chain-independent logic, wasm-friendly:
 k256 = { version = "0.13", features = ["ecdsa"] }
-sha3 = "0.10"
+sha3 = "0.12"
 hex = "0.4"
 thiserror = "2.0"
 # Card / CLI only:
@@ -51,4 +51,4 @@ tokio = { version = "1", features = ["full"] }
 sha2 = "0.11"
 blake2 = "0.10"
 ripemd = "0.2"
-bech32 = "0.11"
+bech32 = "0.12"
