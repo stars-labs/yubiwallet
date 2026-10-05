@@ -46,8 +46,9 @@ integration/native-messaging/install.sh <ext-id> /path/to/yubiwallet-host
 | `sign_secp256k1` | `{ account_id, prehash }` (32B hex) | `{ r, s, recovery_id }` |
 | `sign_ed25519` | `{ account_id, message }` (hex) | `{ signature }` (64B hex) |
 
-The host collects the **PIN** itself (`$YUBIWALLET_PIN` for testing, else
-`/dev/tty`). Never route a PIN through the extension or network.
+The host collects the **PIN** locally with GUI pinentry by default. See the
+[host installation guide](../yubiwallet-host/README.md) for GUI selection and
+explicit terminal/test overrides. Never route a PIN through the extension or network.
 
 ## 2. TypeScript client ([`ts-client/`](./ts-client))
 

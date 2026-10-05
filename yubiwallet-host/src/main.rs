@@ -12,11 +12,13 @@
 //!   sign_ed25519   { account_id, message:<hex> }   -> { signature:<64B hex> }
 //!   get_status     {}                              -> { card_present, accounts }
 //!
-//! PIN entry (M0): from $YUBIWALLET_PIN if set (testing), else prompted on
-//! /dev/tty. A GUI pinentry for the browser-launched daemon is a later milestone.
+//! PIN entry stays local: GUI pinentry by default, explicit tty fallback, or
+//! $YUBIWALLET_PIN for testing. No PIN enters the native-messaging protocol.
 use serde::{Deserialize, Serialize};
 use serde_json::{Value, json};
-use std::io::{self, BufRead, Read, Write};
+use std::io::{self, Read, Write};
+mod pinentry;
+use pinentry::read_pin;
 use yubiwallet::{
     Account, Applet, Curve, eth, get_pubkey, list_piv_accounts, openpgp_account, openpgp_slot,
     parse_slot, sign_with_pin,
@@ -230,25 +232,4 @@ fn sign_ed25519(params: &Value) -> MethodResult {
 
 fn card_err(e: yubiwallet::Error) -> (String, String) {
     ("CARD_ERROR".to_string(), e.to_string())
-}
-
-/// M0 PIN entry: `$YUBIWALLET_PIN` (testing) or a prompt on the controlling tty.
-/// A GUI pinentry for the browser-launched daemon is a later milestone.
-fn read_pin() -> Result<String, String> {
-    if let Ok(p) = std::env::var("YUBIWALLET_PIN") {
-        if !p.is_empty() {
-            return Ok(p);
-        }
-    }
-    if let Ok(mut w) = std::fs::OpenOptions::new().write(true).open("/dev/tty") {
-        let _ = write!(w, "YubiWallet PIN: ");
-        let _ = w.flush();
-    }
-    let tty = std::fs::File::open("/dev/tty")
-        .map_err(|e| format!("no PIN source (set YUBIWALLET_PIN or run with a tty): {e}"))?;
-    let mut line = String::new();
-    io::BufReader::new(tty)
-        .read_line(&mut line)
-        .map_err(|e| e.to_string())?;
-    Ok(line.trim().to_string())
 }
