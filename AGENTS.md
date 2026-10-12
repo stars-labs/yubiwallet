@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to coding agents when working with code in this repository.
 
 ## Repository Structure
 
@@ -30,8 +30,10 @@ It was also briefly named `yubisign` (yanked); don't reintroduce that name.
 ### Building
 
 ```bash
-# Build everything (library, CLI, host, wasm crate)
-cargo build --release
+# Build everything (library, CLI, host, wasm crate).
+# NOTE: `default-members = ["yubiwallet"]`, so bare cargo commands only cover
+# the core lib + CLI. Pass --workspace (or -p <pkg>) for the rest.
+cargo build --release --workspace
 
 # Build a specific crate
 cargo build --release -p yubiwallet        # core lib + CLI (needs the `card` feature, default)
@@ -74,8 +76,8 @@ The shell-based **hardware** test suite (real cards + local nodes) is in
 ### Code Quality
 
 ```bash
-cargo fmt                                   # format
-cargo fmt --check                           # check formatting
+cargo fmt --all                             # format
+cargo fmt --all --check                     # check formatting
 cargo clippy --workspace --all-targets      # lint
 cargo clippy --workspace --all-targets --fix
 ```

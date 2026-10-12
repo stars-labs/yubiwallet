@@ -40,7 +40,7 @@ CI. See `yubiwallet/multichain-tests/README.md`.
 ## Pull requests
 
 - Keep commits focused; write clear messages explaining *why*.
-- `cargo fmt`, `cargo clippy` (no warnings) and `cargo test` must pass.
+- `cargo fmt --all`, `cargo clippy --workspace` (no warnings) and `cargo test --workspace` must pass.
 - Add/adjust unit tests for byte-level logic (APDU/TLV/encoding/recovery).
 - Don't add blockchain SDKs to the library's `[dependencies]`.
 - Be mindful of the security model (see [SECURITY.md](SECURITY.md)).

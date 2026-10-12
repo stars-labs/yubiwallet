@@ -1,3 +1,8 @@
 [workspace]
 resolver = "2"
 members = ["yubiwallet", "yubiwallet-host", "yubiwallet-wasm"]
+# `cargo run` at the root would otherwise be ambiguous between the
+# `yubiwallet` CLI and the `yubiwallet-host` native-messaging bridge.
+# The CLI is the one you normally run; the host is launched by the browser.
+# Use `-p yubiwallet-host` / `--workspace` for the rest.
+default-members = ["yubiwallet"]
