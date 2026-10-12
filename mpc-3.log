@@ -1,0 +1,256 @@
+🔑 Keystore initialized at /home/freeman.xiong/.frost_keystore
+📂 Wallet files will be stored in /home/freeman.xiong/.frost_keystore/wallets/mpc-3
+Relay from mpc-1: Object {"participants": Array [String("mpc-1"), String("mpc-2"), String("mpc-3")], "session_id": String("wallet_2of3"), "threshold": Number(2), "total": Number(3), "websocket_msg_type": String("SessionProposal")}
+Received SessionProposal from mpc-1: ID=wallet_2of3, Total=3, Threshold=2, Participants=["mpc-1", "mpc-2", "mpc-3"]
+Relay from mpc-1: Object {"Offer": Object {"sdp": String("v=0\r\no=- 1815415916080413694 439565106 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 84:C7:0A:27:C0:37:60:AC:D6:C3:10:45:D5:1C:AC:CC:AA:7E:F9:F4:CD:46:67:B3:D3:28:63:A1:22:06:72:2E\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=setup:actpass\r\na=mid:0\r\na=sendrecv\r\na=sctp-port:5000\r\na=ice-ufrag:NaxovtHPhEMUYwXL\r\na=ice-pwd:cwZOiFRyxIbEdsVhCYgjixRHXZAVdgtp\r\n")}, "websocket_msg_type": String("WebRTCSignal")}
+Relay from mpc-1: Object {"Candidate": Object {"candidate": String("candidate:3205123156 1 udp 2130706431 172.22.240.99 45262 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")}
+Relay from mpc-1: Object {"Candidate": Object {"candidate": String("candidate:217271926 1 udp 2130706431 10.234.208.162 52072 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")}
+Relay from mpc-1: Object {"Candidate": Object {"candidate": String("candidate:2094350417 1 udp 2130706431 10.171.121.79 42310 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")}
+Relay from mpc-1: Object {"Candidate": Object {"candidate": String("candidate:2909796805 1 udp 2130706431 fd48:4b4:f3::3 51770 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")}
+WebRTC signal from mpc-1 received, but connection object missing. Attempting creation...
+WebRTC signal from mpc-1 received, but connection object missing. Attempting creation...
+WebRTC signal from mpc-1 received, but connection object missing. Attempting creation...
+WebRTC signal from mpc-1 received, but connection object missing. Attempting creation...
+Relay from mpc-1: Object {"Candidate": Object {"candidate": String("candidate:1200277955 1 udp 2130706431 172.16.0.2 58450 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")}
+WebRTC signal from mpc-1 received, but connection object missing. Attempting creation...
+Creating WebRTC connection object for mpc-1
+Creating WebRTC connection object for mpc-1
+Creating WebRTC connection object for mpc-1
+Creating WebRTC connection object for mpc-1
+Relay from mpc-1: Object {"Candidate": Object {"candidate": String("candidate:3813591960 1 udp 2130706431 2606:4700:cf1:1000::1 60485 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")}
+WebRTC signal from mpc-1 received, but connection object missing. Attempting creation...
+Creating WebRTC connection object for mpc-1
+Stored WebRTC connection object for mpc-1
+Offer from mpc-1: Remote description (offer) set successfully.
+Stored WebRTC connection object for mpc-1
+Processing candidate from mpc-1...
+Remote description is set for mpc-1. Adding ICE candidate now.
+Error adding ICE candidate from mpc-1: remote description is not set
+Stored WebRTC connection object for mpc-1
+Processing candidate from mpc-1...
+Remote description is set for mpc-1. Adding ICE candidate now.
+Error adding ICE candidate from mpc-1: remote description is not set
+WebRTC connection object for mpc-1 already exists. Skipping creation.
+Processing candidate from mpc-1...
+Remote description is set for mpc-1. Adding ICE candidate now.
+Error adding ICE candidate from mpc-1: remote description is not set
+Processing candidate from mpc-1...
+Remote description is set for mpc-1. Adding ICE candidate now.
+Error adding ICE candidate from mpc-1: remote description is not set
+Stored WebRTC connection object for mpc-1
+Processing candidate from mpc-1...
+Remote description is set for mpc-1. Adding ICE candidate now.
+Error adding ICE candidate from mpc-1: remote description is not set
+Stored WebRTC connection object for mpc-1
+Processing candidate from mpc-1...
+Remote description is set for mpc-1. Adding ICE candidate now.
+Error adding ICE candidate from mpc-1: remote description is not set
+ICE connection state with mpc-1: Checking, DeviceConnection: New
+WebRTC state with mpc-1: Connecting, ICE: Checking
+Offer from mpc-1: Local description (answer) created and set.
+Offer from mpc-1: Answer sent to mpc-1
+Successfully sent to server: Relay { to: "mpc-1", data: Object {"Answer": Object {"sdp": String("v=0\r\no=- 6690239013907009 532124626 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 F2:29:A7:A2:1B:A9:49:E1:AE:9F:B5:99:E3:A8:49:0B:F3:21:29:8E:0C:B1:85:E4:82:CD:E3:57:59:5F:83:03\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=setup:active\r\na=mid:0\r\na=sendrecv\r\na=sctp-port:5000\r\na=ice-ufrag:elNRcZoJpBLsyDeD\r\na=ice-pwd:iuaUivyolwLwWnWXFXrHcebyWISRwzzG\r\n")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-1
+Successfully sent to server: Relay { to: "mpc-1", data: Object {"Candidate": Object {"candidate": String("candidate:217271926 1 udp 2130706431 10.234.208.162 53356 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-1
+Successfully sent to server: Relay { to: "mpc-1", data: Object {"Candidate": Object {"candidate": String("candidate:1200277955 1 udp 2130706431 172.16.0.2 36001 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-1
+Successfully sent to server: Relay { to: "mpc-1", data: Object {"Candidate": Object {"candidate": String("candidate:3205123156 1 udp 2130706431 172.22.240.99 46495 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-1
+Successfully sent to server: Relay { to: "mpc-1", data: Object {"Candidate": Object {"candidate": String("candidate:2094350417 1 udp 2130706431 10.171.121.79 53097 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-1
+Successfully sent to server: Relay { to: "mpc-1", data: Object {"Candidate": Object {"candidate": String("candidate:2909796805 1 udp 2130706431 fd48:4b4:f3::3 44475 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-1
+Successfully sent to server: Relay { to: "mpc-1", data: Object {"Candidate": Object {"candidate": String("candidate:3813591960 1 udp 2130706431 2606:4700:cf1:1000::1 51494 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-1
+Successfully sent to server: Relay { to: "mpc-1", data: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 46052 typ srflx raddr 0.0.0.0 rport 46052"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-1
+Successfully sent to server: Relay { to: "mpc-1", data: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 40245 typ srflx raddr 0.0.0.0 rport 40245"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-1
+Successfully sent to server: Relay { to: "mpc-1", data: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 41756 typ srflx raddr 0.0.0.0 rport 41756"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-1
+Sent ICE candidate to mpc-1
+Successfully sent to server: Relay { to: "mpc-1", data: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 41969 typ srflx raddr 0.0.0.0 rport 41969"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Successfully sent to server: Relay { to: "mpc-1", data: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 54971 typ srflx raddr 0.0.0.0 rport 54971"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Relay from mpc-1: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 40658 typ srflx raddr 0.0.0.0 rport 40658"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")}
+Processing candidate from mpc-1...
+Remote description is set for mpc-1. Adding ICE candidate now.
+Error adding ICE candidate from mpc-1: remote description is not set
+Relay from mpc-1: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 48441 typ srflx raddr 0.0.0.0 rport 48441"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")}
+Relay from mpc-1: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 51056 typ srflx raddr 0.0.0.0 rport 51056"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")}
+Processing candidate from mpc-1...
+Remote description is set for mpc-1. Adding ICE candidate now.
+Error adding ICE candidate from mpc-1: remote description is not set
+Processing candidate from mpc-1...
+Remote description is set for mpc-1. Adding ICE candidate now.
+Error adding ICE candidate from mpc-1: remote description is not set
+Relay from mpc-1: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 45538 typ srflx raddr 0.0.0.0 rport 45538"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")}
+Relay from mpc-1: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 51376 typ srflx raddr 0.0.0.0 rport 51376"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")}
+Processing candidate from mpc-1...
+Remote description is set for mpc-1. Adding ICE candidate now.
+Error adding ICE candidate from mpc-1: remote description is not set
+Processing candidate from mpc-1...
+Remote description is set for mpc-1. Adding ICE candidate now.
+Error adding ICE candidate from mpc-1: remote description is not set
+ICE connection state with mpc-1: Connected, DeviceConnection: Connecting
+WebRTC state with mpc-1: Connected, ICE: Connected
+!!! WebRTC CONNECTED with mpc-1 !!!
+Responder: Data channel 'frost-dkg' opened by mpc-1
+Data channel for mpc-1 stored in app state
+Data channel 'frost-dkg' open confirmed with mpc-1
+[ReportChannelOpen-mpc-3] Received for remote device: mpc-1.
+[ReportChannelOpenTask-mpc-3] Running for remote device: mpc-1. Session exists at dispatch: false
+[ReportChannelOpenTask-mpc-3] Set device status for mpc-1 to Connected.
+[ReportChannelOpenTask-mpc-3] Session does not exist for remote device: mpc-1. Skipping mesh check logic.
+Raw message from mpc-1: {"webrtc_msg_type":"ChannelOpen","device_id":"mpc-1"}
+Received channel open notification from mpc-1
+Accepting session proposal 'wallet_2of3'
+You accepted session proposal 'wallet_2of3'
+Session setup: accepted_devices after including proposer and early responses: ["mpc-3", "mpc-1"]
+Identifier map created (on accept): {"mpc-1": Identifier("0000000000000000000000000000000000000000000000000000000000000001"), "mpc-2": Identifier("0000000000000000000000000000000000000000000000000000000000000002"), "mpc-3": Identifier("0000000000000000000000000000000000000000000000000000000000000003")}
+Sent session acceptance response to mpc-1
+Sent session acceptance response to mpc-2
+Creating WebRTC connection object for mpc-2
+Successfully sent to server: Relay { to: "mpc-1", data: Object {"accepted": Bool(true), "session_id": String("wallet_2of3"), "websocket_msg_type": String("SessionResponse")} }
+Successfully sent to server: Relay { to: "mpc-2", data: Object {"accepted": Bool(true), "session_id": String("wallet_2of3"), "websocket_msg_type": String("SessionResponse")} }
+[CheckAndTriggerDkg-mpc-3] Conditions not met. MeshReady: false, IdentifiersMapped: true, SessionActive: true, DkgIdle: true
+Stored WebRTC connection object for mpc-2
+Created device connection for mpc-2
+No devices to initiate offers to based on ID ordering. Waiting for incoming offers.
+Raw message from mpc-1: {"webrtc_msg_type":"MeshReady","session_id":"wallet_2of3","device_id":"mpc-1"}
+Mesh ready notification from mpc-1: session_id: wallet_2of3, device_id: mpc-1
+Received MeshReady from mpc-1 but not all session responses received yet (2/3 responses). Buffering for later processing.
+Finished processing MeshReady from mpc-1.
+Relay from mpc-2: Object {"accepted": Bool(true), "session_id": String("wallet_2of3"), "websocket_msg_type": String("SessionResponse")}
+Received SessionResponse from mpc-2: SessionResponse { session_id: "wallet_2of3", accepted: true }
+Received session response from mpc-2: Accepted=true
+Device mpc-2 accepted session 'wallet_2of3'. Active session accepted devices: 3/3
+All 3 participants accepted session 'wallet_2of3' (active session). Preparing identifier map.
+Processing 1 buffered mesh ready signals now that all session responses are received
+Processing buffered mesh ready from device: mpc-1
+Processing MeshReady from device: mpc-1. Added to ready set.
+Mesh readiness update: 1 devices now in ready set. Total session participants: 3.
+Mesh status updated to PartiallyReady (1/3 participants known ready).
+Finished processing MeshReady from mpc-1.
+Relay from mpc-2: Object {"Offer": Object {"sdp": String("v=0\r\no=- 3566724252178275467 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:zQAQ\r\na=ice-pwd:OVbf0L1mdX6AX3IXbHc7cjje\r\na=ice-options:trickle\r\na=fingerprint:sha-256 0F:6C:C5:AF:58:27:3F:27:6D:FD:40:41:F0:3E:05:05:35:EB:79:06:7E:AC:12:69:F3:BD:8C:E9:17:6D:9D:3A\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n")}, "websocket_msg_type": String("WebRTCSignal")}
+Relay from mpc-2: Object {"Candidate": Object {"candidate": String("candidate:1877670807 1 udp 2122194687 10.234.208.162 58352 typ host generation 0 ufrag zQAQ network-id 3 network-cost 50"), "sdpMLineIndex": Number(0), "sdpMid": String("0")}, "websocket_msg_type": String("WebRTCSignal")}
+Relay from mpc-2: Object {"Candidate": Object {"candidate": String("candidate:183609278 1 udp 2122129151 172.22.240.99 38756 typ host generation 0 ufrag zQAQ network-id 4 network-cost 50"), "sdpMLineIndex": Number(0), "sdpMid": String("0")}, "websocket_msg_type": String("WebRTCSignal")}
+Relay from mpc-2: Object {"Candidate": Object {"candidate": String("candidate:2035542066 1 udp 2121998079 172.16.0.2 38306 typ host generation 0 ufrag zQAQ network-id 1"), "sdpMLineIndex": Number(0), "sdpMid": String("0")}, "websocket_msg_type": String("WebRTCSignal")}
+Processing candidate from mpc-2...
+Remote description is set for mpc-2. Adding ICE candidate now.
+Relay from mpc-2: Object {"Candidate": Object {"candidate": String("candidate:2536596903 1 udp 2121932543 10.171.121.79 46520 typ host generation 0 ufrag zQAQ network-id 6 network-cost 10"), "sdpMLineIndex": Number(0), "sdpMid": String("0")}, "websocket_msg_type": String("WebRTCSignal")}
+Error adding ICE candidate from mpc-2: remote description is not set
+Processing candidate from mpc-2...
+Processing candidate from mpc-2...
+Relay from mpc-2: Object {"Candidate": Object {"candidate": String("candidate:2246745177 1 udp 2122265343 fd48:4b4:f3::3 35735 typ host generation 0 ufrag zQAQ network-id 5 network-cost 50"), "sdpMLineIndex": Number(0), "sdpMid": String("0")}, "websocket_msg_type": String("WebRTCSignal")}
+Processing candidate from mpc-2...
+Remote description is set for mpc-2. Adding ICE candidate now.
+Remote description is set for mpc-2. Adding ICE candidate now.
+Remote description is set for mpc-2. Adding ICE candidate now.
+Error adding ICE candidate from mpc-2: remote description is not set
+Error adding ICE candidate from mpc-2: remote description is not set
+Error adding ICE candidate from mpc-2: remote description is not set
+Relay from mpc-2: Object {"Candidate": Object {"candidate": String("candidate:632156096 1 udp 2122066175 2606:4700:cf1:1000::1 33092 typ host generation 0 ufrag zQAQ network-id 2"), "sdpMLineIndex": Number(0), "sdpMid": String("0")}, "websocket_msg_type": String("WebRTCSignal")}
+Processing candidate from mpc-2...
+Remote description is set for mpc-2. Adding ICE candidate now.
+Error adding ICE candidate from mpc-2: remote description is not set
+Processing candidate from mpc-2...
+Remote description is set for mpc-2. Adding ICE candidate now.
+Offer from mpc-2: Remote description (offer) set successfully.
+Added ICE candidate from mpc-2
+ICE connection state with mpc-2: Checking, DeviceConnection: New
+WebRTC state with mpc-2: Connecting, ICE: Checking
+Offer from mpc-2: Local description (answer) created and set.
+Offer from mpc-2: Answer sent to mpc-2
+Successfully sent to server: Relay { to: "mpc-2", data: Object {"Answer": Object {"sdp": String("v=0\r\no=- 6945602670459510765 383485531 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 1F:C9:71:59:AB:42:34:8F:22:EE:2F:11:A3:3C:B6:0B:2B:64:97:4C:F5:FE:24:75:C2:DD:8C:4F:5F:60:36:9D\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=setup:active\r\na=mid:0\r\na=sendrecv\r\na=sctp-port:5000\r\na=ice-ufrag:zhCdhZWiwZBfqeNg\r\na=ice-pwd:kaUVlpHfiZxobpbagLCdTwurOJNHQeXh\r\n")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-2
+Successfully sent to server: Relay { to: "mpc-2", data: Object {"Candidate": Object {"candidate": String("candidate:2094350417 1 udp 2130706431 10.171.121.79 38886 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-2
+Sent ICE candidate to mpc-2
+Successfully sent to server: Relay { to: "mpc-2", data: Object {"Candidate": Object {"candidate": String("candidate:217271926 1 udp 2130706431 10.234.208.162 47505 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Successfully sent to server: Relay { to: "mpc-2", data: Object {"Candidate": Object {"candidate": String("candidate:2909796805 1 udp 2130706431 fd48:4b4:f3::3 44696 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-2
+Successfully sent to server: Relay { to: "mpc-2", data: Object {"Candidate": Object {"candidate": String("candidate:3813591960 1 udp 2130706431 2606:4700:cf1:1000::1 52902 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-2
+Sent ICE candidate to mpc-2
+Successfully sent to server: Relay { to: "mpc-2", data: Object {"Candidate": Object {"candidate": String("candidate:3205123156 1 udp 2130706431 172.22.240.99 40829 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Successfully sent to server: Relay { to: "mpc-2", data: Object {"Candidate": Object {"candidate": String("candidate:1200277955 1 udp 2130706431 172.16.0.2 40697 typ host"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Relay from mpc-2: Object {"Candidate": Object {"candidate": String("candidate:947618969 1 udp 1685724927 203.116.47.202 46520 typ srflx raddr 10.171.121.79 rport 46520 generation 0 ufrag zQAQ network-id 6 network-cost 10"), "sdpMLineIndex": Number(0), "sdpMid": String("0")}, "websocket_msg_type": String("WebRTCSignal")}
+Processing candidate from mpc-2...
+Remote description is set for mpc-2. Adding ICE candidate now.
+Added ICE candidate from mpc-2
+Sent ICE candidate to mpc-2
+Sent ICE candidate to mpc-2
+Successfully sent to server: Relay { to: "mpc-2", data: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 51304 typ srflx raddr 0.0.0.0 rport 51304"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Successfully sent to server: Relay { to: "mpc-2", data: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 33287 typ srflx raddr 0.0.0.0 rport 33287"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-2
+Successfully sent to server: Relay { to: "mpc-2", data: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 33445 typ srflx raddr 0.0.0.0 rport 33445"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Sent ICE candidate to mpc-2
+Sent ICE candidate to mpc-2
+Successfully sent to server: Relay { to: "mpc-2", data: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 49028 typ srflx raddr 0.0.0.0 rport 49028"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+Successfully sent to server: Relay { to: "mpc-2", data: Object {"Candidate": Object {"candidate": String("candidate:1018613112 1 udp 1694498815 203.116.47.202 55630 typ srflx raddr 0.0.0.0 rport 55630"), "sdpMLineIndex": Number(0), "sdpMid": String("")}, "websocket_msg_type": String("WebRTCSignal")} }
+ICE connection state with mpc-2: Connected, DeviceConnection: Connecting
+WebRTC state with mpc-2: Connected, ICE: Connected
+!!! WebRTC CONNECTED with mpc-2 !!!
+Responder: Data channel 'frost-dkg' opened by mpc-2
+Data channel for mpc-2 stored in app state
+Data channel 'frost-dkg' open confirmed with mpc-2
+Raw message from mpc-2: {"webrtc_msg_type":"MeshReady","session_id":"wallet_2of3","device_id":"mpc-2"}
+Mesh ready notification from mpc-2: session_id: wallet_2of3, device_id: mpc-2
+[ReportChannelOpen-mpc-3] Received for remote device: mpc-2.
+Processing MeshReady from device: mpc-2. Added to ready set.
+Mesh readiness update: 2 devices now in ready set. Total session participants: 3.
+Mesh status updated to PartiallyReady (2/3 participants known ready).
+Finished processing MeshReady from mpc-2.
+Successfully sent WebRTC message to mpc-2
+[ReportChannelOpenTask-mpc-3] Running for remote device: mpc-2. Session exists at dispatch: true
+[ReportChannelOpenTask-mpc-3] Set device status for mpc-2 to Connected.
+[ReportChannelOpenTask-mpc-3] Sent channel_open to mpc-2
+[ReportChannelOpenTask-mpc-3] Calling check_and_send_mesh_ready for remote device: mpc-2
+[MeshCheck-mpc-3] Status: PartiallyReady { ready_devices: {"mpc-2", "mpc-1"}, total_devices: 3 }, SessionExists: true, ParticipantsToCheck: ["mpc-1", "mpc-2"], OpenDCKeys: ["mpc-1", "mpc-2"], AllOpenCalc: true, AllResponsesReceivedCalc: true, AlreadySentCalc: false
+[MeshCheck-mpc-3] All local data channels open AND all session responses received! Signaling to process own mesh readiness...
+Local node is mesh ready. Sending MeshReady signal to devices. Current ready devices count: 3
+All devices (including self) are mesh ready. Overall MeshStatus: Ready.
+Constructed WebRTCMessage::MeshReady to send to devices: MeshReady { session_id: "wallet_2of3", device_id: "mpc-3" }
+Successfully sent WebRTC message to mpc-1
+Sent MeshReady signal to mpc-1
+Successfully sent WebRTC message to mpc-2
+Sent MeshReady signal to mpc-2
+[CheckAndTriggerDkg-mpc-3] All conditions met. Triggering DKG Round 1.
+DKG Round 1: Generating and sending commitments to all devices...
+Starting DKG Round 1 logic...
+DKG Part 1 successful for identifier Identifier("0000000000000000000000000000000000000000000000000000000000000003")
+DEBUG: Stored own Part1 Package (Hash: 00eed6b1b10203454c51c21ec32672e198b42a287398f4472fc9a15430f40d8f1b85682b5d3fb902710e08dffd44299cdbd9f07b2ec5db550ce4bbefcaab66b82f1a89060a38481b41034b0d6413d209fb0d40b4d955b9963fc1d8ace7541f1c74f5440d0663e4d2ed5ffbc100af418be4cd870643205a79070ac8b39b39a1831b8ead5df11ac1d25e6c) to received_dkg_packages.
+Successfully sent WebRTC message to mpc-1
+Successfully sent WebRTC message to mpc-2
+DKG Round 1 broadcast summary: 2 sent successfully, 0 failed.
+Raw message from mpc-1: {"webrtc_msg_type":"DkgRound1Package","package":{"header":{"version":0,"ciphersuite":"FROST-secp256k1-SHA256-v1"},"commitment":["022ce9674413d7179c0272e9206d1644496803d4b39b95087ab4cc4cd330f2345b","038a1bb95a6147237d8c0f3db646d1aadff919270ecba86d7359d695f9d9fb01b7"],"proof_of_knowledge":"027775455086150843aa90f3d1dccdb415b7baa46dc7cf4cbc93bf59c15e822048b88fcc6acd14591f2b2d6815961cc864bc1161d873118986bc1b5557af9872e5"}}
+Processing DKG Round 1 package from mpc-1
+Processing DKG Round 1 package from mpc-1
+DEBUG: Received Part1 Package Hash from mpc-1: 00eed6b1b102022ce9674413d7179c0272e9206d1644496803d4b39b95087ab4cc4cd330f2345b038a1bb95a6147237d8c0f3db646d1aadff919270ecba86d7359d695f9d9fb01b741027775455086150843aa90f3d1dccdb415b7baa46dc7cf4cbc93bf59c15e822048b88fcc6acd14591f2b2d6815961cc864bc1161d873118986bc1b5557af9872e5
+DKG Round 1: Received 2/3 packages.
+DKG Round 1: After processing package from mpc-1, still waiting for more packages.
+Relay from mpc-2: Object {"Candidate": Object {"candidate": String("candidate:287643919 1 tcp 1518214911 10.234.208.162 9 typ host tcptype active generation 0 ufrag zQAQ network-id 3 network-cost 50"), "sdpMLineIndex": Number(0), "sdpMid": String("0")}, "websocket_msg_type": String("WebRTCSignal")}
+Relay from mpc-2: Object {"Candidate": Object {"candidate": String("candidate:1950237990 1 tcp 1518149375 172.22.240.99 9 typ host tcptype active generation 0 ufrag zQAQ network-id 4 network-cost 50"), "sdpMLineIndex": Number(0), "sdpMid": String("0")}, "websocket_msg_type": String("WebRTCSignal")}
+Relay from mpc-2: Object {"Candidate": Object {"candidate": String("candidate:127666858 1 tcp 1518018303 172.16.0.2 9 typ host tcptype active generation 0 ufrag zQAQ network-id 1"), "sdpMLineIndex": Number(0), "sdpMid": String("0")}, "websocket_msg_type": String("WebRTCSignal")}
+Relay from mpc-2: Object {"Candidate": Object {"candidate": String("candidate:3925772095 1 tcp 1517952767 10.171.121.79 9 typ host tcptype active generation 0 ufrag zQAQ network-id 6 network-cost 10"), "sdpMLineIndex": Number(0), "sdpMid": String("0")}, "websocket_msg_type": String("WebRTCSignal")}
+Processing candidate from mpc-2...
+Remote description is set for mpc-2. Adding ICE candidate now.
+Processing candidate from mpc-2...
+Remote description is set for mpc-2. Adding ICE candidate now.
+Relay from mpc-2: Object {"Candidate": Object {"candidate": String("candidate:4213538497 1 tcp 1518285567 fd48:4b4:f3::3 9 typ host tcptype active generation 0 ufrag zQAQ network-id 5 network-cost 50"), "sdpMLineIndex": Number(0), "sdpMid": String("0")}, "websocket_msg_type": String("WebRTCSignal")}
+Processing candidate from mpc-2...
+Remote description is set for mpc-2. Adding ICE candidate now.
+Processing candidate from mpc-2...
+Remote description is set for mpc-2. Adding ICE candidate now.
+Relay from mpc-2: Object {"Candidate": Object {"candidate": String("candidate:1533152600 1 tcp 1518086399 2606:4700:cf1:1000::1 9 typ host tcptype active generation 0 ufrag zQAQ network-id 2"), "sdpMLineIndex": Number(0), "sdpMid": String("0")}, "websocket_msg_type": String("WebRTCSignal")}
+Processing candidate from mpc-2...
+Remote description is set for mpc-2. Adding ICE candidate now.
+Processing candidate from mpc-2...
+Remote description is set for mpc-2. Adding ICE candidate now.
+Added ICE candidate from mpc-2
+Added ICE candidate from mpc-2
+Added ICE candidate from mpc-2
+Added ICE candidate from mpc-2
+Added ICE candidate from mpc-2
+Added ICE candidate from mpc-2
